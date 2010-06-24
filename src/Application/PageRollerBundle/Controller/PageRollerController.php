@@ -18,12 +18,8 @@ class PageRollerController extends Controller {
 
 
     $urls = array(
-        'http://sgadmin.servergrove.com/intranet/ganglia/?c=ServerGrove&m=&r=day&s=descending&hc=4',
-        'http://38.108.46.129/cacti/graph_view.php?action=tree&tree_id=1&leaf_id=8',
-        'http://38.108.46.129/ganglia/?c=ServerGrove&m=load_one&r=day&s=descending&hc=4&mc=2',
-        'http://sg108.servergrove.com/intranet/server-status',
-        'http://sg111.servergrove.com/intranet/server-status',
-        'http://sg112.servergrove.com/intranet/server-status',
+        'http://www.symfony-project.org/',
+        'http://www.symfony-reloaded.org/',
     );
 
 
