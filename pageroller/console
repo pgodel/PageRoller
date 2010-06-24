@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/PageRollerKernel.php';
+
+use Symfony\Framework\FoundationBundle\Console\Application;
+
+$kernel = new PageRollerKernel('dev', true);
+
+$application = new Application($kernel);
+$application->run();

@@ -1,0 +1,19 @@
+parameters:
+    kernel.include_core_classes: false
+
+kernel.config: ~
+web.config: ~
+web.templating: ~
+web.user: ~
+
+
+doctrine_odm.mongodb:
+  default_document_manager: default
+  cache_driver:             array
+  document_managers:
+    default:
+      connection:           mongodb
+  connections:
+    mongodb:
+      server:               localhost
+      default_database:     pageroller
